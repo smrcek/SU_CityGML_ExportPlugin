@@ -23,7 +23,7 @@ This is a modification of CityGML plugin version 1.8 for use in [SketchUp 2015](
     
 
 #Some examples
-Models and their surface types (visualisation of surface types is from [FZKViewer](http://iai-typo3.iai.fzk.de/www-extern/index.php?id=1931)).
+Models and their surface types (visualisation of surface types are from [FZKViewer](http://iai-typo3.iai.fzk.de/www-extern/index.php?id=1931)).
 
 ![Used surface types in this building model](https://cloud.githubusercontent.com/assets/18631402/21408406/39923984-c7d5-11e6-8605-ef718e1af12d.jpg "Used CityGML surface types in this building model")
 
