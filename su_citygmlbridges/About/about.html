@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>About CityGML</title>
+<script>
+    var version
+    var build
+
+  function get_version_build()
+    {
+        window.location = 'skp:get_version_build';
+    }
+  function print_version_build(Version, Build)
+  {
+      document.write("<h3>CityGML-Editor " + Version + "</h3>")
+      document.write("Build: " + Build)
+  }
+  function exit()
+      {
+        window.location = 'skp:exit';
+      }
+</script>
+</head>
+
+<body>
+<p><img src="ToolchainLogo7.png" alt="ToolchainLogo" width="420"></p>
+
+<script>
+get_version_build()
+</script>
+
+<p>Copyright © 2009 Fachhochschule Gelsenkirchen. Alle Rechte vorbehalten. </p>
+
+<p>Diese Software wurde von Tobias Kordts und Steffen Buss im Fachbereich Elektrotechnik am Standort Bocholt der Fachhochschule Gelsenkirchen entwickelt. </p>
+
+<p>Eine aktuelle Version dieser Software erhalten Sie unter: <a href="http://www.citygml.de/" target="_blank">http://www.citygml.de</a></p>
+
+<form action="input_text_value.htm">
+    <textarea name="lizenz" cols="50" rows="10" readonly>===== Nutzungsbedingungen =====
+
+Mit der Installation dieser Software bestätigen Sie, dass Sie die nachfolgenden Hinweise gelesen haben und die darin enthaltenen Bedingungen uneingeschränkt anerkennen.
+
+Sie haben das Recht, diese Software auf Ihrem Rechner zu installieren und zeitlich unbegrenzt zu nutzen. Sie sind darüber hinaus berechtigt, die Software an Dritte weiterzugeben. Es darf aber nur die vollständige Software mit allen Bestandteilen - insbesondere auch mit diesen Nutzungsbedingungen - weitergegeben werden. Jegliche Modifikation der Software ist untersagt. Diese Software darf weder als Ganzes noch in Teilen verkauft oder in einem kommerziellen Produkt verwendet werden.
+
+===== Haftungsausschluss =====
+
+Der Hersteller übernimmt keinerlei Gewährleistung für diese Software. In keinem Fall kann der Hersteller für Schäden haftbar gemacht werden, die durch diese Software oder im Zusammenhang mit der Installation oder Verwendung dieser Software mittelbar oder unmittelbar entstanden sein könnten oder entstanden sind.
+
+===== Verwendete Bibliotheken =====
+
+LibXml Ruby
+Copyright (c) 2007 Dan Janowski
+
+SketchupAttributeManager
+Copyright (c) 2007 Google Inc.
+
+</textarea>
+<div style="text-align:center;">
+<input type="button" name="OK" value="OK" onClick="exit()">
+</div>
+</form>
+
+</body>
+</html>

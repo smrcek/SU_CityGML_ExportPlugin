@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Export</title>
+        <link type="text/css" href="css/smoothness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <link type="text/css" href="css/jquery.ui.selectmenu.css" rel="stylesheet" />
+        <link type="text/css" href="css/edit.css" rel="stylesheet" />
+        <link type="text/css" href="css/export.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.json-2.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.selectmenu.js"></script>
+        <script type="text/javascript" src="js/export.js"></script>
+    </head>
+
+    <body>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Layer/LOD/textures</a></li>
+                <li><a href="#tabs-2">Coordinate system</a></li>
+                <li><a href="#tabs-3">CityGML options</a></li>
+            </ul>
+
+            <form name="Daten">
+                <!-- ------------------------------------------------------------------------------ -->
+                <!-- Layer/LOD/textures -->
+                <div id="tabs-1">
+                    <span class="headline1">Subdirectory for textures</span><br>
+                    <p id="textureDiv">
+                    </p>
+
+                    <div style="float: left;">
+                        <span class="headline1">Assigned LOD in the CityGML model</span><br>
+                        <p>
+                            <select name="LOD" id="LOD" class="text ui-widget-content ui-corner-all">
+                                <option value="1">lod1</option>
+                                <option value="2">lod2</option>
+                                <option value="3">lod3</option>
+                                <option value="4" selected>lod4</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div style="float: left; margin-left: 3em;">
+                        <span class="headline1">GML-Geometry type</span>
+                        <p>
+                            <select name="GmlType" id="GmlType" class="text ui-widget-content ui-corner-all">
+                                <option value="0" selected>MultiSurface</option>
+                                <!--<option value="1">Solid</option>-->
+                            </select>
+                        </p>
+                    </div>
+
+                    <span class="headline1" style="clear: left;">Layers to be exported</span><br>
+                    <p id="layerDiv"></p>
+                </div>
+
+                <!-- ------------------------------------------------------------------------------ -->
+                <!-- Coordinate system -->
+                <div id="tabs-2">
+                    <span class="headline1">Orientation</span><br>
+                    <p>
+                        <input type="radio" name="orientation" value="1" checked>Easting, Northing<br/><br/>
+                        <input type="radio" name="orientation" value="2">Northing, Easting
+                    </p>
+
+                    <span class="headline1">Offset</span>
+                    <!--'
+                   html += ' disabled' if(isbatch)
+                   html += '> -->
+
+                    <p id="offsetDiv">                
+                    </p>
+
+                    <span class="headline1" style="clear:left;">Coordinate system (CityGML attribute srsName)</span><br/>
+
+                    <input id="coordinate_system" name="coordinate_system" class="txtField" type="text" size="50" maxlength="50" value="">
+
+                </div>
+
+                <!-- ------------------------------------------------------------------------------ -->
+                <!-- CityGML options -->
+                <div id="tabs-3">
+
+                    <span class="headline1">Appearance</span><br/>
+                    <p>
+                        <input type="radio" name="appearance" value="1">Outside of Building element<br/><br/>
+                        <input type="radio" name="appearance" value="2" checked>Inside of Building element
+                    </p>
+
+                    <span class="headline1">Group materials</span><br/>
+                    <p>
+                        <input type="radio" name="mat" value="1" checked>All materials in one Appearance element<br/><br/>
+                        <input type="radio" name="mat" value="2">One material per Appearance element
+                    </p>
+
+                    <span class="headline1">GML:IDs</span><br/>
+                    <p>
+                        <input type="radio" name="ids" value="1">ID for buildings only <i>( missing building ID's will <b>not</b> be generated )</i><br/><br/>
+                        <input type="radio" name="ids" value="2" checked>ID for all elements <i>( missing ID's will be generated )</i><br/><br/>
+                        <input type="radio" name="ids" value="3">ID for all elements with exististing ID<br/><br/>
+                        <input id= "groupsurfacetype" type="checkbox" name="groupsurfacetype">Group surfaces without SurfaceType-ID<br><br/>
+                        <input id= "collision_correct_id" type="checkbox" name="collision_correct_id" checked>Check and correct IDs
+                    </p>
+
+                </div>
+                <a href="#" class="btnCancel ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-close"></span>Cancel</a>
+                <a href="#" class="btnAccept ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-check"></span>Start export</a>
+            </form>
+        </div>
+    </body>
+</html>
