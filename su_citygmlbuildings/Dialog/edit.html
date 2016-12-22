@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Edit attributes</title>
+        <link type="text/css" href="css/smoothness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+        <link type="text/css" href="css/jquery.ui.selectmenu.css" rel="stylesheet" />
+        <link type="text/css" href="css/edit.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.json-2.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.selectmenu.js"></script>
+        <script type="text/javascript" src="js/edit.js"> </script>
+    </head>
+    <body>
+        <!-- Tabs -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Standard attributes</a></li>
+                <li><a href="#tabs-2">Generic attributes</a></li>
+            </ul>
+            <div id="tabs-1">
+                <div id="tabs-1-content"></div>
+                <a href="#" id="stdDialogLink" style="float:left;" class="ui-state-default ui-corner-all button"><span class="ui-icon ui-icon-plus"></span>Add standard attribute</a>
+                <a href="#" class="btnCancel ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-close"></span>Cancel</a>
+                <a href="#" class="btnAccept ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-check"></span>Accept</a>
+            </div>
+            <div id="tabs-2">
+                <div id="tabs-2-content"></div>
+                <a href="#" id="genDialogLink" style="float:left;" class="ui-state-default ui-corner-all button"><span class="ui-icon ui-icon-plus"></span>Add generic attribute</a>
+                <a href="#" class="btnCancel ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-close"></span>Cancel</a>
+                <a href="#" class="btnAccept ui-state-default ui-corner-all button button-right"><span class="ui-icon ui-icon-check"></span>Accept</a>
+            </div>
+        </div>
+
+        <div id="stdDialog" title="Add standard attribute">
+            <form action="">
+                <label for="stdName">name</label>
+                <select name="stdName" id="stdName" class="text ui-widget-content ui-corner-all"><option></option></select><br>
+                <label for="stdValue">value</label>
+                <input type="text" name="stdValue" id="stdValue" value="" class="text ui-widget-content ui-corner-all" /><br>
+            </form>
+        </div>
+
+        <div id="genDialog" title="Add generic attribute">
+            <form action="">
+                <label for="genName">name</label>
+                <input type="text" name="genName" id="genName" class="text ui-widget-content ui-corner-all" /><br>
+                <label for="genValue">value</label>
+                <input type="text" name="genValue" id="genValue" value="" class="text ui-widget-content ui-corner-all" /><br>
+            </form>
+        </div>
+
+        <div id="editDialog" title="Edit attribute">
+            <form action="">
+                <input type="hidden" id="editType">
+                <label for="editName">name</label>
+                <input type="text" name="editName" id="editName" readonly class="text ui-state-default ui-widget-content ui-corner-all" /><br>
+                <label for="editValue">value</label>
+                <input type="text" name="editValue" id="editValue" class="text ui-widget-content ui-corner-all" /><br>
+            </form>
+        </div>
+
+        <div id="attributeExistsDialog" title="Error!">
+            <div style="margin: 25px 0; width: auto; text-align: center;">Attribute already exists!</div>
+        </div>
+    </body>
+</html>
+
+

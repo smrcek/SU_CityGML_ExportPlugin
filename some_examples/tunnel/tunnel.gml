@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported with Google SketchUp CityGML-Plugin < version 1.8 Build 5842 > - Westfaelische Hochschule -->
+<core:CityModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/citygml/2.0 ./CityGML_2.0/CityGML.xsd" xmlns="http://www.opengis.net/citygml/2.0" xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:app="http://www.opengis.net/citygml/appearance/2.0" xmlns:wtr="http://www.opengis.net/citygml/waterbody/2.0" xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:luse="http://www.opengis.net/citygml/landuse/2.0" xmlns:tran="http://www.opengis.net/citygml/transportation/2.0" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" xmlns:tun="http://www.opengis.net/citygml/tunnel/2.0" xmlns:tex="http://www.opengis.net/citygml/textures/2.0" xmlns:core="http://www.opengis.net/citygml/base/2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:brid="http://www.opengis.net/citygml/bridge/2.0" xmlns:dem="http://www.opengis.net/citygml/relief/2.0" xmlns:bldg="http://www.opengis.net/citygml/building/2.0">
+<core:cityObjectMember>
+<tun:Tunnel gml:id="_tunnel_BD.1">
+<app:appearance>
+<app:Appearance>
+
+<app:surfaceDataMember>
+<app:ParameterizedTexture>
+<app:imageURI>/textures/Brick_Antique.jpg</app:imageURI>
+<app:wrapMode>wrap</app:wrapMode>
+<app:target uri="#_tunnel_BD.1_PG.1">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.1_LR.1">
+-4.701270267379883 21.4288027310833 -4.701270267379883 0.6534648932454613 -1.564416819104021 0.6534648932454613 -1.564416819104021 21.4288027310833 -4.701270267379883 21.4288027310833 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.2">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.2_LR.1">
+0.4168655353462425 0.0 13.670098293966932 0.0 13.670098293966932 3.0675675675675675 13.667119094831506 3.0675675675675675 13.397722543107367 3.0675675675675675 0.6862620870703804 3.0675675675675675 0.4168655353462425 3.0675675675675675 0.4168655353462425 0.0 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.3">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.3_LR.1">
+4.701270267379883 3.0675675675675675 3.340501408817502 3.0675675675675675 3.340501408817502 2.7843283378317834 4.435707827118329 2.7843283378317834 4.435707827118329 0.23027428377772932 1.7994283109654832 0.23027428377772932 1.7994283109654832 2.7843283378317834 2.806018650196812 2.7843283378317834 2.806018650196812 3.0675675675675675 1.564416819104021 3.0675675675675675 1.564416819104021 0.0 4.701270267379883 0.0 4.701270267379883 3.0675675675675675 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.4">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.4_LR.1">
+-13.670098293966932 0.0 -0.4168655353462425 0.0 -0.4168655353462425 3.0675675675675675 -0.6862620870703804 3.0675675675675675 -13.397722543107367 3.0675675675675675 -13.667119094831506 3.0675675675675675 -13.670098293966932 3.0675675675675675 -13.670098293966932 0.0 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.5">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.5_LR.1">
+1.564416819104021 0.0 4.701270267379883 0.0 4.701270267379883 3.0675675675675675 3.340501408817502 3.0675675675675675 1.564416819104021 3.0675675675675675 1.564416819104021 0.0 </app:textureCoordinates>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.5_LR.2">
+1.7994283109654832 0.23027428377772932 1.7994283109654832 2.7843283378317834 2.806018650196812 2.7843283378317834 3.340501408817502 2.7843283378317834 4.435707827118329 2.7843283378317834 4.435707827118329 0.23027428377772932 1.7994283109654832 0.23027428377772932 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.12">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.12_LR.1">
+2.806018650196812 21.42413263514128 3.340501408817502 21.42413263514128 3.340501408817502 21.4288027310833 1.564416819104021 21.4288027310833 1.564416819104021 21.42413263514128 2.806018650196812 21.42413263514128 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.26">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.26_LR.1">
+4.701270267379883 21.4288027310833 3.340501408817502 21.4288027310833 3.340501408817502 21.42413263514128 4.701270267379883 21.42413263514128 4.701270267379883 21.4288027310833 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.33">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.33_LR.1">
+2.806018650196812 2.7843283378317834 3.340501408817502 2.7843283378317834 3.340501408817502 3.0675675675675675 2.806018650196812 3.0675675675675675 2.806018650196812 2.7843283378317834 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.47">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.47_LR.1">
+1.564416819104021 1.0757621905427586 2.806018650196812 1.0757621905427586 2.806018650196812 21.001835337843982 1.564416819104021 21.001835337843982 1.564416819104021 1.0757621905427586 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.49">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.49_LR.1">
+4.701270267379883 21.001835337843982 3.340501408817502 21.001835337843982 3.340501408817502 1.0757621905427586 4.701270267379883 1.0757621905427586 4.701270267379883 21.001835337843982 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+</app:ParameterizedTexture>
+</app:surfaceDataMember>
+
+<app:surfaceDataMember>
+<app:ParameterizedTexture>
+<app:imageURI>/textures/Brick_Rough_Dark.jpg</app:imageURI>
+<app:wrapMode>wrap</app:wrapMode>
+<app:target uri="#_tunnel_BD.1_PG.8">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.8_LR.1">
+0.6716166958356129 0.3872794772625448 22.024047251391167 0.3872794772625448 22.024047251391167 4.68273402271709 0.6716166958356129 4.68273402271709 0.6716166958356129 0.3872794772625448 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+</app:ParameterizedTexture>
+</app:surfaceDataMember>
+
+<app:surfaceDataMember>
+<app:ParameterizedTexture>
+<app:imageURI>/textures/Concrete_Block_8x8_Gray.jpg</app:imageURI>
+<app:wrapMode>wrap</app:wrapMode>
+<app:target uri="#_tunnel_BD.1_PG.9">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.9_LR.1">
+2.174309209083292 16.518035438543375 2.174309209083292 0.5037125218767097 5.359813624434648 0.5037125218767097 5.359813624434648 16.518035438543375 2.174309209083292 16.518035438543375 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+</app:ParameterizedTexture>
+</app:surfaceDataMember>
+
+<app:surfaceDataMember>
+<app:ParameterizedTexture>
+<app:imageURI>/textures/Cladding_Siding_Tan.jpg</app:imageURI>
+<app:wrapMode>wrap</app:wrapMode>
+<app:target uri="#_tunnel_BD.1_PG.11">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.11_LR.1">
+3.8468291836011117 25.902263583340915 8.091872516934444 25.902263583340915 8.091872516934444 26.423096916674247 3.8468291836011117 26.423096916674247 3.8468291836011117 25.902263583340915 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.13">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.13_LR.1">
+25.90226358334091 -0.7531293970100392 26.423096916674243 -0.7531293970100392 26.423096916674247 1.4445004642141934 25.902263583340915 1.4445004642141934 25.90226358334091 -0.7531293970100392 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.14">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.14_LR.1">
+3.0245391836011075 3.783333333333382 5.424969390380503 3.783333333333382 5.424969390380503 4.363186354997784 6.458302723713836 4.363186354997784 6.458302723713836 3.783333333333382 9.089122516934442 3.783333333333382 8.091872516934444 5.741666666666715 3.8468291836011117 5.741666666666715 3.0245391836011075 3.783333333333382 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.15">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.15_LR.1">
+-25.90226358334091 4.659244784365686 -25.902263583340915 6.78321048289861 -26.423096916674247 6.78321048289861 -26.423096916674243 4.659244784365686 -25.90226358334091 4.659244784365686 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.17">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.17_LR.1">
+4.274995816934437 0.8059400350027351 7.956079960934427 0.8059400350027351 7.956079960934427 1.3267733683360685 4.274995816934437 1.3267733683360685 4.274995816934437 0.8059400350027351 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.18">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.18_LR.1">
+-0.8059400350027353 7.139962758222162 -1.3267733683360685 7.139962758222162 -1.326773368336069 4.816450064843498 -0.8059400350027355 4.816450064843498 -0.8059400350027353 7.139962758222162 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.19">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.19_LR.1">
+0.8059400350027348 0.9854281701811733 0.805940035002735 -1.277060476895645 1.3267733683360683 -1.277060476895645 1.326773368336068 0.9854281701811733 0.8059400350027348 0.9854281701811733 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.23">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.23_LR.1">
+3.0245391836011075 3.783333333333333 5.424969390380503 3.783333333333333 5.424969390380503 4.363186354997736 6.458302723713836 4.363186354997736 6.458302723713836 3.783333333333333 9.089122516934442 3.783333333333333 7.956079960934427 5.741666666666666 4.274995816934437 5.741666666666666 3.0245391836011075 3.783333333333333 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.30">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.30_LR.1">
+-9.089122516934442 3.7833333333333847 -6.458302723713836 3.7833333333333847 -6.458302723713836 4.363186354997788 -5.424969390380503 4.363186354997788 -5.424969390380503 3.7833333333333847 -3.0245391836011075 3.7833333333333847 -3.8468291836011117 5.741666666666719 -8.091872516934444 5.741666666666719 -9.089122516934442 3.7833333333333847 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.51">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.51_LR.1">
+-9.089122516934442 3.783333333333333 -6.458302723713836 3.783333333333333 -6.458302723713836 4.363186354997736 -5.424969390380503 4.363186354997736 -5.424969390380503 3.783333333333333 -3.0245391836011075 3.783333333333333 -4.274995816934437 5.741666666666666 -7.956079960934427 5.741666666666666 -9.089122516934442 3.783333333333333 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+</app:ParameterizedTexture>
+</app:surfaceDataMember>
+
+<app:surfaceDataMember>
+<app:ParameterizedTexture>
+<app:imageURI>/textures/Metal_Steel_Textured_White.jpg</app:imageURI>
+<app:wrapMode>wrap</app:wrapMode>
+<app:target uri="#_tunnel_BD.1_PG.20">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.20_LR.1">
+32.291513618569184 6.633866841680344 27.124846951902516 6.633866841680344 27.124846951902516 4.029700175013677 32.291513618569184 4.029700175013677 32.291513618569184 6.633866841680344 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.22">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.22_LR.1">
+4.029700175013677 21.815931774988677 4.029700175013677 18.916666666666664 6.633866841680344 18.916666666666664 6.633866841680344 21.815931774988677 4.029700175013677 21.815931774988677 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.24">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.24_LR.1">
+-32.291513618569184 6.633866841680344 -32.291513618569184 4.029700175013677 -27.124846951902516 4.029700175013677 -27.124846951902516 6.633866841680344 -32.291513618569184 6.633866841680344 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.27">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.27_LR.1">
+-129.51131791670457 21.815931774988677 -132.1154845833712 21.815931774988677 -132.1154845833712 18.916666666666664 -129.51131791670454 18.916666666666664 -129.51131791670457 21.815931774988677 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.28">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.28_LR.1">
+32.291513618569184 132.1154845833712 27.124846951902516 132.1154845833712 27.124846951902516 129.51131791670454 32.291513618569184 129.51131791670454 32.291513618569184 132.1154845833712 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.29">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.29_LR.1">
+132.1154845833712 18.916666666666664 132.1154845833712 21.815931774988677 129.51131791670457 21.815931774988677 129.51131791670454 18.916666666666664 132.1154845833712 18.916666666666664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.31">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.31_LR.1">
+-27.124846951902516 132.1154845833712 -32.291513618569184 132.1154845833712 -32.291513618569184 129.51131791670457 -27.124846951902516 129.51131791670457 -27.124846951902516 132.1154845833712 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.35">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.35_LR.1">
+32.291513618569184 17.170024749962664 32.291513618569184 18.916666666666664 27.124846951902516 18.916666666666664 27.124846951902516 17.170024749962664 32.291513618569184 17.170024749962664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.41">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.41_LR.1">
+-4.029700175013677 21.815931774988677 -6.633866841680344 21.815931774988677 -6.633866841680344 18.916666666666664 -4.029700175013677 18.916666666666664 -4.029700175013677 21.815931774988677 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.42">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.42_LR.1">
+-32.291513618569184 17.170024749962664 -27.124846951902516 17.170024749962664 -27.124846951902516 18.916666666666664 -32.291513618569184 18.916666666666664 -32.291513618569184 17.170024749962664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.44">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.44_LR.1">
+129.51131791670454 18.916666666666664 129.51131791670457 21.815931774988677 6.633866841680344 21.815931774988677 6.633866841680344 18.916666666666664 129.51131791670454 18.916666666666664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.45">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.45_LR.1">
+-129.51131791670457 21.815931774988677 -129.51131791670454 18.916666666666664 -6.633866841680344 18.916666666666664 -6.633866841680344 21.815931774988677 -129.51131791670457 21.815931774988677 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.46">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.46_LR.1">
+6.633866841680344 17.170024749962664 129.51131791670454 17.170024749962664 129.51131791670454 18.916666666666664 6.633866841680344 18.916666666666664 6.633866841680344 17.170024749962664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.48">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.48_LR.1">
+-129.51131791670454 17.170024749962664 -6.633866841680344 17.170024749962664 -6.633866841680344 18.916666666666664 -129.51131791670454 18.916666666666664 -129.51131791670454 17.170024749962664 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+<app:target uri="#_tunnel_BD.1_PG.50">
+<app:TexCoordList>
+<app:textureCoordinates ring="#_tunnel_BD.1_PG.50_LR.1">
+-32.291513618569184 129.51131791670457 -32.291513618569184 6.633866841680344 -27.124846951902516 6.633866841680344 -27.124846951902516 129.51131791670457 -32.291513618569184 129.51131791670457 </app:textureCoordinates>
+</app:TexCoordList></app:target>
+</app:ParameterizedTexture>
+</app:surfaceDataMember>
+
+<app:surfaceDataMember>
+<app:X3DMaterial>
+	<app:ambientIntensity>0.2</app:ambientIntensity>
+	<app:diffuseColor>1.0 0.4117647058823529 0.7058823529411765</app:diffuseColor>
+	<app:emissiveColor>0.0 0.0 0.0</app:emissiveColor>
+	<app:specularColor>1.0 1.0 1.0</app:specularColor>
+	<app:shininess>0.2</app:shininess>
+	<app:transparency>0.0</app:transparency>
+	<app:isSmooth>false</app:isSmooth>
+	<app:target>#_tunnel_BD.1_PG.52</app:target>
+	<app:target>#_tunnel_BD.1_PG.53</app:target>
+</app:X3DMaterial>
+</app:surfaceDataMember>
+</app:Appearance>
+</app:appearance>
+<tun:lod4MultiSurface>
+<gml:MultiSurface>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.1">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.1_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 0.6141263066720845 0.0
+2.304698857904044 0.6141263066720845 0.0
+2.304698857904044 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.2">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.2_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 0.6141263066720845 0.0
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.3">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.3_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 0.21641177189431002
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+2.6509177877143495 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+2.304698857904044 0.6141263066720845 0.0
+6.925911357904043 0.6141263066720845 0.0
+6.925911357904043 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.4">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.4_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 20.138788806672082 0.0
+2.304698857904044 0.6141263066720845 0.0
+2.304698857904044 0.6141263066720845 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 19.73752485050577 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.5">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.5_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 2.8829
+4.921226675469943 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.5_LR.2">
+<gml:posList srsDimension="3">
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+6.534684770910723 20.138788806672082 2.61671177189431
+6.534684770910723 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.6">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.6_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.138788806672082 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 20.138788806672082 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.7">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.7_LR.1">
+<gml:posList srsDimension="3">
+6.534684770910723 0.6141263066720845 0.21641177189431002
+6.534684770910723 20.138788806672082 0.21641177189431002
+6.534684770910723 20.138788806672082 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.8">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.8_LR.1">
+<gml:posList srsDimension="3">
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 2.61671177189431
+2.6509177877143495 0.6141263066720845 2.61671177189431
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.9">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.9_LR.1">
+<gml:posList srsDimension="3">
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+6.534684770910723 0.6141263066720845 0.21641177189431002
+6.534684770910723 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.10">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.10_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 20.134399850505773 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.11">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.11_LR.1">
+<gml:posList srsDimension="3">
+2.931283837904047 19.737524850505775 4.37515
+6.166006857904046 19.737524850505775 4.37515
+6.166006857904046 20.134399850505776 4.37515
+2.931283837904047 20.134399850505776 4.37515
+2.931283837904047 19.737524850505775 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.12">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.12_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.13">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.13_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.166006857904046 20.134399850505776 4.37515
+6.166006857904046 19.737524850505775 4.37515
+6.925911357904043 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.14">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.14_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.73752485050577 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.166006857904046 19.737524850505775 4.37515
+2.931283837904047 19.737524850505775 4.37515
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.15">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.15_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+2.931283837904047 19.737524850505775 4.37515
+2.931283837904047 20.134399850505776 4.37515
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.16">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.16_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.17">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.17_LR.1">
+<gml:posList srsDimension="3">
+3.257546812504041 0.6141263066720842 4.37515
+6.062532930232033 0.6141263066720842 4.37515
+6.062532930232033 1.0110013066720842 4.37515
+3.257546812504041 1.0110013066720842 4.37515
+3.257546812504041 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.18">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.18_LR.1">
+<gml:posList srsDimension="3">
+3.257546812504041 0.6141263066720842 4.37515
+3.257546812504041 1.0110013066720842 4.37515
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+3.257546812504041 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.19">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.19_LR.1">
+<gml:posList srsDimension="3">
+6.062532930232033 0.6141263066720842 4.37515
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.062532930232033 1.0110013066720842 4.37515
+6.062532930232033 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.20">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.20_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.21">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.21_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.22">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.22_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 0.6141263066720845 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.23">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.23_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.062532930232033 0.6141263066720842 4.37515
+3.257546812504041 0.6141263066720842 4.37515
+2.304698857904044 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.24">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.24_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.25">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.25_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 19.73752485050577 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.26">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.26_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.138788806672082 2.8829
+4.921226675469943 20.138788806672082 2.8829
+4.921226675469943 20.134399850505773 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.925911357904043 20.138788806672082 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.27">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.27_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.28">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.28_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.29">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.29_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.30">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.30_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 20.134399850505773 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.931283837904047 20.134399850505776 4.37515
+6.166006857904046 20.134399850505776 4.37515
+6.925911357904043 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.31">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.31_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 20.134399850505773 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.32">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.32_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.33">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.33_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.34">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.34_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.35">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.35_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.36">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.36_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 20.138788806672082 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.37">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.37_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.138788806672082 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.38">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.38_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 20.138788806672082 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+4.921226675469943 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.39">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.39_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.138788806672082 2.61671177189431
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.40">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.40_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+2.6509177877143495 20.138788806672082 2.61671177189431
+2.6509177877143495 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.41">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.41_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.42">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.42_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.43">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.43_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.44">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.44_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.45">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.45_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.46">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.46_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.47">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.47_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 19.73752485050577 2.8829
+2.304698857904044 19.73752485050577 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.48">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.48_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.49">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.49_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.925911357904043 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.50">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.50_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.51">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.51_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+3.257546812504041 1.0110013066720842 4.37515
+6.062532930232033 1.0110013066720842 4.37515
+6.925911357904043 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.52">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.52_LR.1">
+<gml:posList srsDimension="3">
+5.960329892087979 5.839581505842519 2.75110795475675
+5.913449660582811 5.83774139082075 2.624065821954307
+5.855899482097245 5.841823093179035 2.7507094152230698
+5.898272528247877 5.84363104727345 2.871988980071822
+5.960329892087979 5.839581505842519 2.75110795475675
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.52_LR.2">
+<gml:posList srsDimension="3">
+5.880668150287839 5.841297588637267 2.7510781432663847
+5.909423204904204 5.83918080225827 2.6843526864252762
+5.932507311611058 5.840088475330111 2.746979833321621
+5.902951737654944 5.842408673411624 2.8220024090415383
+5.880668150287839 5.841297588637267 2.7510781432663847
+</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.53">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.53_LR.1">
+<gml:posList srsDimension="3">
+5.909678509598974 5.841279928686368 2.7783183140778958
+5.896331985547423 5.841279928686365 2.77731478389349
+5.900163646251548 5.841279928686368 2.726355328423947
+5.913510170303094 5.841279928686368 2.72735885860835
+5.909678509598974 5.841279928686368 2.7783183140778958
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+<tun:boundedBy>
+<tun:CeilingSurface gml:id="_tunnel_BD.1_CeilingSurface_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.6">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.6_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.138788806672082 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 20.138788806672082 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:CeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:CeilingSurface gml:id="_tunnel_BD.1_CeilingSurface_2">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.37">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.37_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.138788806672082 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:CeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:CeilingSurface gml:id="_tunnel_BD.1_CeilingSurface_3">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.40">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.40_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+2.6509177877143495 20.138788806672082 2.61671177189431
+2.6509177877143495 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:CeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:CeilingSurface gml:id="_tunnel_BD.1_CeilingSurface_4">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.43">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.43_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:CeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:FloorSurface gml:id="_tunnel_BD.1_FloorSurface_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.9">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.9_LR.1">
+<gml:posList srsDimension="3">
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+6.534684770910723 0.6141263066720845 0.21641177189431002
+6.534684770910723 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:FloorSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:OuterCeilingSurface gml:id="_tunnel_BD.1_OuterCeilingSurface_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.12">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.12_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:OuterCeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:OuterCeilingSurface gml:id="_tunnel_BD.1_OuterCeilingSurface_2">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.26">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.26_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.138788806672082 2.8829
+4.921226675469943 20.138788806672082 2.8829
+4.921226675469943 20.134399850505773 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.925911357904043 20.138788806672082 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:OuterCeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:OuterCeilingSurface gml:id="_tunnel_BD.1_OuterCeilingSurface_3">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.47">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.47_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 19.73752485050577 2.8829
+2.304698857904044 19.73752485050577 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:OuterCeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:OuterCeilingSurface gml:id="_tunnel_BD.1_OuterCeilingSurface_4">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.49">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.49_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.925911357904043 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:OuterCeilingSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:OuterFloorSurface gml:id="_tunnel_BD.1_OuterFloorSurface_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.1">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.1_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 0.6141263066720845 0.0
+2.304698857904044 0.6141263066720845 0.0
+2.304698857904044 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:OuterFloorSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_1">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.20">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.20_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_2">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.22">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.22_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 0.6141263066720845 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_3">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.24">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.24_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_4">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.27">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.27_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_5">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.28">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.28_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_6">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.29">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.29_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 2.8829
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_7">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.31">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.31_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 20.134399850505773 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_8">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.35">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.35_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.61671177189431
+4.921226675469943 19.73752485050577 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_9">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.41">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.41_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_10">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.42">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.42_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_11">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.44">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.44_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_12">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.45">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.45_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_13">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.46">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.46_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 1.0110013066720844 2.61671177189431
+4.133826675469943 19.73752485050577 2.61671177189431
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+4.133826675469943 1.0110013066720844 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_14">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.48">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.48_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.73752485050577 2.61671177189431
+4.921226675469943 1.0110013066720844 2.61671177189431
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 19.73752485050577 2.8829
+4.921226675469943 19.73752485050577 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelInstallation gml:id="_tunnel_BD.1_TunnelInstallation_15">
+<tun:lod4Geometry>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.50">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.50_LR.1">
+<gml:posList srsDimension="3">
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4Geometry>
+</tun:TunnelInstallation>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.10">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.10_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 20.134399850505773 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_2">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.11">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.11_LR.1">
+<gml:posList srsDimension="3">
+2.931283837904047 19.737524850505775 4.37515
+6.166006857904046 19.737524850505775 4.37515
+6.166006857904046 20.134399850505776 4.37515
+2.931283837904047 20.134399850505776 4.37515
+2.931283837904047 19.737524850505775 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_3">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.13">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.13_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.166006857904046 20.134399850505776 4.37515
+6.166006857904046 19.737524850505775 4.37515
+6.925911357904043 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_4">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.14">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.14_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+4.133826675469943 19.73752485050577 2.8829
+4.133826675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.737524850505775 3.3247480025082745
+4.921226675469943 19.73752485050577 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.166006857904046 19.737524850505775 4.37515
+2.931283837904047 19.737524850505775 4.37515
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_5">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.15">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.15_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 19.73752485050577 2.8829
+2.931283837904047 19.737524850505775 4.37515
+2.931283837904047 20.134399850505776 4.37515
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 19.73752485050577 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_6">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.16">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.16_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_7">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.17">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.17_LR.1">
+<gml:posList srsDimension="3">
+3.257546812504041 0.6141263066720842 4.37515
+6.062532930232033 0.6141263066720842 4.37515
+6.062532930232033 1.0110013066720842 4.37515
+3.257546812504041 1.0110013066720842 4.37515
+3.257546812504041 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_8">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.18">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.18_LR.1">
+<gml:posList srsDimension="3">
+3.257546812504041 0.6141263066720842 4.37515
+3.257546812504041 1.0110013066720842 4.37515
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+3.257546812504041 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_9">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.19">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.19_LR.1">
+<gml:posList srsDimension="3">
+6.062532930232033 0.6141263066720842 4.37515
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.062532930232033 1.0110013066720842 4.37515
+6.062532930232033 0.6141263066720842 4.37515
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_10">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.21">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.21_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 1.0110013066720844 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_11">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.23">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.23_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 0.6141263066720845 3.3247480025082745
+4.921226675469943 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.062532930232033 0.6141263066720842 4.37515
+3.257546812504041 0.6141263066720842 4.37515
+2.304698857904044 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_12">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.25">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.25_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 19.73752485050577 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_13">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.30">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.30_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 2.8829
+4.921226675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 20.134399850505773 3.3247480025082745
+4.133826675469943 20.134399850505773 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.931283837904047 20.134399850505776 4.37515
+6.166006857904046 20.134399850505776 4.37515
+6.925911357904043 20.134399850505773 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:TunnelPart gml:id="_tunnel_BD.1_TunnelPart_14">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.51">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.51_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 2.8829
+4.921226675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 3.3247480025082745
+4.133826675469943 1.0110013066720844 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+3.257546812504041 1.0110013066720842 4.37515
+6.062532930232033 1.0110013066720842 4.37515
+6.925911357904043 1.0110013066720844 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:TunnelPart>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_1">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.2">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.2_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 0.6141263066720845 0.0
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 2.8829
+6.925911357904043 20.134399850505773 2.8829
+6.925911357904043 19.73752485050577 2.8829
+6.925911357904043 1.0110013066720844 2.8829
+6.925911357904043 0.6141263066720845 2.8829
+6.925911357904043 0.6141263066720845 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_2">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.3">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.3_LR.1">
+<gml:posList srsDimension="3">
+6.925911357904043 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.8829
+4.921226675469943 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 0.21641177189431002
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+2.6509177877143495 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.133826675469943 0.6141263066720845 2.8829
+2.304698857904044 0.6141263066720845 2.8829
+2.304698857904044 0.6141263066720845 0.0
+6.925911357904043 0.6141263066720845 0.0
+6.925911357904043 0.6141263066720845 2.8829
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_3">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.4">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.4_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 20.138788806672082 0.0
+2.304698857904044 0.6141263066720845 0.0
+2.304698857904044 0.6141263066720845 2.8829
+2.304698857904044 1.0110013066720844 2.8829
+2.304698857904044 19.73752485050577 2.8829
+2.304698857904044 20.134399850505773 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_4">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.5">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.5_LR.1">
+<gml:posList srsDimension="3">
+2.304698857904044 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 0.0
+6.925911357904043 20.138788806672082 2.8829
+4.921226675469943 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 2.8829
+2.304698857904044 20.138788806672082 0.0
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.5_LR.2">
+<gml:posList srsDimension="3">
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 2.61671177189431
+4.133826675469943 20.138788806672082 2.61671177189431
+4.921226675469943 20.138788806672082 2.61671177189431
+6.534684770910723 20.138788806672082 2.61671177189431
+6.534684770910723 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:interior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_5">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.7">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.7_LR.1">
+<gml:posList srsDimension="3">
+6.534684770910723 0.6141263066720845 0.21641177189431002
+6.534684770910723 20.138788806672082 0.21641177189431002
+6.534684770910723 20.138788806672082 2.61671177189431
+6.534684770910723 0.6141263066720845 2.61671177189431
+6.534684770910723 0.6141263066720845 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_6">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.8">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.8_LR.1">
+<gml:posList srsDimension="3">
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+2.6509177877143495 20.138788806672082 0.21641177189431002
+2.6509177877143495 20.138788806672082 2.61671177189431
+2.6509177877143495 0.6141263066720845 2.61671177189431
+2.6509177877143495 0.6141263066720845 0.21641177189431002
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+<tun:boundedBy>
+<tun:WallSurface gml:id="_tunnel_BD.1_WallSurface_7">
+<tun:lod4MultiSurface>
+<gml:MultiSurface srsName="" srsDimension="3">
+<gml:surfaceMember>
+<gml:Polygon gml:id="_tunnel_BD.1_PG.33">
+<gml:exterior>
+<gml:LinearRing gml:id="_tunnel_BD.1_PG.33_LR.1">
+<gml:posList srsDimension="3">
+4.133826675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.61671177189431
+4.921226675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.8829
+4.133826675469943 0.6141263066720845 2.61671177189431
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</gml:surfaceMember>
+</gml:MultiSurface>
+</tun:lod4MultiSurface>
+</tun:WallSurface>
+</tun:boundedBy>
+</tun:Tunnel>
+</core:cityObjectMember>
+</core:CityModel>
