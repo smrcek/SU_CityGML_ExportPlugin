@@ -14,19 +14,6 @@ This is a modification of CityGML plugin version 1.8 for use in [SketchUp 2015](
 4. Start using plugin.
 
 
-#Main features
-
-* This plugin serves for exporting only
-* Adjusted for Sketchup 2015 and newer
-* Load proper Win32Api
-* Support of objects (according to [OGC standards](http://www.opengeospatial.org/standards/citygml)): buildings, tunnels, bridges
-    
-
-#Some examples
-Models and their surface types (visualisation of surface types are from [FZKViewer](http://iai-typo3.iai.fzk.de/www-extern/index.php?id=1931)).
-
-![Used surface types in this building model](https://cloud.githubusercontent.com/assets/18631402/21408406/39923984-c7d5-11e6-8605-ef718e1af12d.jpg "Used CityGML surface types in this building model")
-
-![Used surface types in this bridge](https://cloud.githubusercontent.com/assets/18631402/21408593/27db4efa-c7d6-11e6-8ecc-61b8afe59fa0.jpg "Used CityGML surface types in this bridge")
-
-![CityGML surface types in this tunnel](https://cloud.githubusercontent.com/assets/18631402/21408478/a21f27fa-c7d5-11e6-99b4-f9490a1c2301.jpg "CityGML surface types in this tunnel")
+#Project Wiki
+Detailed documentation is stored at
+[project wiki](https://github.com/smrcek/SU_CityGML_ExportPlugin/wiki)
