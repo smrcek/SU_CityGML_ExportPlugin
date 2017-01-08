@@ -17,3 +17,8 @@ This is a modification of CityGML plugin version 1.8 for use in [SketchUp 2015](
 #Project Wiki
 Detailed documentation is stored at
 [project wiki](https://github.com/smrcek/SU_CityGML_ExportPlugin/wiki)
+
+
+#README for developers
+Useful technical informations for developers are stored in file 'README_for_developer.md' at
+[README for developers](https://github.com/smrcek/SU_CityGML_ExportPlugin/blob/master/README_for_developer.md)
