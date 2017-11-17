@@ -1,0 +1,25 @@
+/* ---------------------------------------------------------- */
+/* Textformatierungen */
+
+.headline1 { /* Überschrift 1 */
+             font-style: italic;
+}
+select, input{ 
+    width: 50px;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+select {
+    width: 100px;
+}
+label {
+    width: 3em;
+    display: block;
+    float: left;
+}
+p { margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.txtField { width: 150px;}
+.button-left { margin-left: 5px; float: left;}
