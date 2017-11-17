@@ -25,3 +25,13 @@ The layer class must have two methods: run and initialize.
     This part of the gml file is returned by the run method in a String format.
 - The initialize method is used to get all useful and necessary informations related to this new layer type stored in method parameters.
 
+#Creating new materials
+
+For creating new material type it is needed to create new class in a new file located at <Sketchup_plugins_folder>/<plugin_name>/Export/layers'. Both with name of intended material name.
+The material class must have two methods: run and initialize.
+- The run method is called to generate part of the resulting gml which is related to this new material type. This part of the gml file is returned by the run method in a String format.
+- The initialize method is used to get all useful and necessary informations related to this new material type stored in method parameters.
+
+#Plugin transition to 2017
+
+It seems that SketchUp 2017 does not support DL library anymore. It should be replaced with FIDDLE library. Anybody with a decent Ruby knowledge should be able to do it.
