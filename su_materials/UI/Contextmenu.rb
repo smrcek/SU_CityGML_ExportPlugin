@@ -23,7 +23,7 @@ module FHGelsenkirchenMaterials
       ##
       if(Sketchup.active_model.selection.count >= 1)
         if(Sketchup.active_model.selection.count == 1)
-          subMenu = menu.add_submenu("CityGML_Material");
+          subMenu = menu.add_submenu("CityGML_Time_From_To");
           subMenu.add_item("Edit") {
             AttributeEdit.new
           }

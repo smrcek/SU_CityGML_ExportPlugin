@@ -9,7 +9,7 @@ module FHGelsenkirchenMaterials
           " to run the CityGML-Plugin. You can download it at www.sketchup.google.com")
     else
       tool_menu = UI.menu "Plugins"
-      m2 = tool_menu.add_submenu("CityGML_Materials"){}
+      m2 = tool_menu.add_submenu("CityGML_Buildings_Historical"){}
       m2.add_item("Import"){
         ImportService.new()
       }

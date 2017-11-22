@@ -15,10 +15,10 @@ module FHGelsenkirchenMaterials
   CITYGML_COPYRIGHT = "2012, Westfaelische Hochschule"
 end
 
-cityGML_extension = SketchupExtension.new("City GML - Materials", "su_materials/citygmlmaterialsloader.rb")
+cityGML_extension = SketchupExtension.new("City GML - Buildings_Historical", "su_materials/citygmlmaterialsloader.rb")
 cityGML_extension.version = FHGelsenkirchenMaterials::CITYGML_VERSION
 cityGML_extension.creator = FHGelsenkirchenMaterials::CITYGML_CREATOR
 cityGML_extension.copyright = FHGelsenkirchenMaterials::CITYGML_COPYRIGHT
 cityGML_extension.description = "Tools for the usage of CityGML."
-cityGML_extension.name = "City GML - Materials"
+cityGML_extension.name = "City GML - Buildings_Historical"
 Sketchup.register_extension(cityGML_extension, true)
