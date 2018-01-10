@@ -458,7 +458,7 @@ module FHGelsenkirchenMaterials
             @gmlType = parameters[10].to_i();
 
             #Speichert den XML-Tag für das LOD
-            @lod = "mtrl:lod" + @lodNum.to_s();
+            @lod = "bldg:lod" + @lodNum.to_s();
             #if(@gmlType == 1)
             #@lod += "Solid"
             #else
@@ -703,7 +703,7 @@ module FHGelsenkirchenMaterials
             if(buildingid != nil and buildingid != "" )
               if(@exportedid[buildingid] == nil)
                 puts "Building \"#{buildingid}\" exported"
-                @handle << "<mtrl:Building gml:id=\"" + buildingid.to_s() + "\">\n"
+                @handle << "<bldg:Building gml:id=\"" + buildingid.to_s() + "\">\n"
                 actbuildingid = buildingid
                 @exportedid[buildingid] = 1
               else
@@ -714,16 +714,16 @@ module FHGelsenkirchenMaterials
                 end
                 actbuildingid = buildingid + "_#{tmppos}"
                 puts "Building \"#{actbuildingid}\" exported"
-                @handle << "<mtrl:Building gml:id=\"" + actbuildingid.to_s() + "\">\n"
+                @handle << "<bldg:Building gml:id=\"" + actbuildingid.to_s() + "\">\n"
                 @exportedid[actbuildingid] = 1
               end
             else
               if(@generate)
-                @handle << "<mtrl:Building gml:id=\"" + actbuildingid.to_s() + "\">\n"
+                @handle << "<bldg:Building gml:id=\"" + actbuildingid.to_s() + "\">\n"
                 @exportedid[actbuildingid] = 1
                 puts "Building \"#{actbuildingid}\" exported"
               else
-                @handle << "<mtrl:Building>\n"
+                @handle << "<bldg:Building>\n"
               end
             end
 
@@ -802,7 +802,7 @@ module FHGelsenkirchenMaterials
             exportGenAttributes(curr_entity.attribute_dictionaries) ## doplneny pozadovany typ
             writebuffers(@lod, nosurfacetype, actbuildingid, readLayers)
             nosurfacetype = ""
-            @handle << "</mtrl:Building>\n"
+            @handle << "</bldg:Building>\n"
             @handle << "</core:cityObjectMember>\n"
           end
           #Jedes Face, welches keiner Gruppe angehört, wird in stdbuilding
@@ -812,12 +812,12 @@ module FHGelsenkirchenMaterials
             if(@generate)
               stdbuildingid = newrandombuildingid()
               stdbuilding << "<core:cityObjectMember>\n"
-              stdbuilding << "<mtrl:Building gml:id=\""+ stdbuildingid.to_s()+ "\">\n"
+              stdbuilding << "<bldg:Building gml:id=\""+ stdbuildingid.to_s()+ "\">\n"
               @exportedid[stdbuildingid.to_s()] = 1
               puts "Building \"#{stdbuildingid}\" exported"
             else
               stdbuilding << "<core:cityObjectMember>\n"
-              stdbuilding << "<mtrl:Building>\n"
+              stdbuilding << "<bldg:Building>\n"
             end
           end
           stdpolygonpos += 1 ## doplneny pozadovany typ
@@ -892,7 +892,7 @@ module FHGelsenkirchenMaterials
         end
         ## doplneny pozadovany typ
         writebuffers(@lod, stdnosurfacetype, stdbuildingid, stdLayers)
-        @handle << "</mtrl:Building>\n"
+        @handle << "</bldg:Building>\n"
         @handle << "</core:cityObjectMember>\n"
       end
 #Wenn @parameterizedTextureHash bzw @x3dmaterial nicht leer sind
@@ -1316,11 +1316,11 @@ module FHGelsenkirchenMaterials
       tmpfile << "<gml:surfaceMember>\n"
       #end
       if fromDate != nil
-          tmpfile << "<mtrl:FromDate mtrl:fromDate=\"" + fromDate.to_s() + "\"/>\n"
+          tmpfile << "<gml:TimePeriod gml:begin=\"" + fromDate.to_s() + "\"/>\n"
       end
 
       if toDate != nil
-          tmpfile << "<mtrl:ToDate mtrl:toDate=\"" + toDate.to_s() + "\"/>\n"
+          tmpfile << "<gml:TimePeriod gml:end=\"" + toDate.to_s() + "\"/>\n"
       end
 
       #gml:id vorhanden? sonst generieren, wenn vorher erlaubt wurde

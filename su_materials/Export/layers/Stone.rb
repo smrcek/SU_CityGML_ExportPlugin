@@ -12,11 +12,11 @@ class Stone
       handle = ""
       @stone.each_pair {|key, value|
             if(key != "" and key != nil and !@noid)
-              handle << "<mtrl:boundedBy>\n"
+              handle << "<bldg:boundedBy>\n"
               if(@noid or (key == nil and !@generate) )
-                handle << "<mtrl:Stone>\n"
+                handle << "<bldg:Stone>\n"
               else
-                handle << "<mtrl:Stone gml:id=\"#{key}\">\n"
+                handle << "<bldg:Stone gml:id=\"#{key}\">\n"
               end
               
               handle << "<#{@lod}>\n"
@@ -28,19 +28,19 @@ class Stone
               handle << value
               handle << "</gml:MultiSurface>\n"
               handle << "</#{@lod}>\n"
-              handle << "</mtrl:Stone>\n"
-              handle << "</mtrl:boundedBy>\n"
+              handle << "</bldg:Stone>\n"
+              handle << "</bldg:boundedBy>\n"
             else
               if(!@groupsurfaces)
                 pos = 1
                 value.each do |v|
-                  handle << "<mtrl:boundedBy>\n"
+                  handle << "<bldg:boundedBy>\n"
                   if(@noid or !@generate)
-                    handle << "<mtrl:Stone>\n"
+                    handle << "<bldg:Stone>\n"
                   else
                     key = "#{@actbuildingid}_Stone_#{pos}" if(@generate)
                     pos += 1
-                    handle << "<mtrl:Stone gml:id=\"#{key}\">\n"
+                    handle << "<bldg:Stone gml:id=\"#{key}\">\n"
                   end
 
                   handle << "<#{@lod}>\n"
@@ -52,17 +52,17 @@ class Stone
                   handle << v
                   handle << "</gml:MultiSurface>\n"
                   handle << "</#{@lod}>\n"
-                  handle << "</mtrl:Stone>\n"
-                  handle << "</mtrl:boundedBy>\n"
+                  handle << "</bldg:Stone>\n"
+                  handle << "</bldg:boundedBy>\n"
                 end
               else
                 pos = 1
-                handle << "<mtrl:boundedBy>\n"
+                handle << "<bldg:boundedBy>\n"
                 if(@noid or !@generate)
-                  handle << "<mtrl:Stone>\n"
+                  handle << "<bldg:Stone>\n"
                 else
                   key = "#{@actbuildingid}_Stone_#{pos}" if(@generate)
-                  handle << "<mtrl:Stone gml:id=\"#{key}\">\n"
+                  handle << "<bldg:Stone gml:id=\"#{key}\">\n"
                 end
 
                 handle << "<#{@lod}>\n"
@@ -76,8 +76,8 @@ class Stone
                 end
                 handle << "</gml:MultiSurface>\n"
                 handle << "</#{@lod}>\n"
-                handle << "</mtrl:Stone>\n"
-                handle << "</mtrl:boundedBy>\n"
+                handle << "</bldg:Stone>\n"
+                handle << "</bldg:boundedBy>\n"
               end
             end
           }
